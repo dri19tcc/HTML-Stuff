@@ -108,6 +108,14 @@ nav.footer a {
   text-align: center;
 }
 
+figcaption.caption {
+  font-weight: bold;
+}
+
+.sidebig {
+  font-size: 24px;
+}
+
 
 
 
