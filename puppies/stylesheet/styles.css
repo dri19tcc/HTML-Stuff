@@ -1,0 +1,115 @@
+section.center{
+  width: 70%;
+  margin: 0 auto;
+}
+/*header stuffs*/
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+a.booklink {
+  color: #f00;
+  float: right;
+}
+/*end header stuff*/
+/*navbar stuff*/
+h3.subtitle {
+  color: #ccc;
+}
+
+nav.navbar {
+  background-color: #ccc;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: #111;
+}
+/*end navbar stuff*/
+/*sidebar stuff*/
+aside.sidebar {
+  float: right;
+  margin: 5px 0;
+  border: 3px solid #000;
+  /*padding: 10px;*/
+  text-align: center;
+  width: 35%;
+}
+
+a.sidebar {
+  width: 40%;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  height: auto;
+}
+
+section.sidebar{
+  margin-bottom: 50px;
+}
+
+.book {
+  float: right;
+  clear: both;
+}
+
+section.maintext {
+  float: left;
+  margin: 5px 0;
+  /*padding: 10px;*/
+  text-align: center;
+  width: 60%;
+  font-size: 20px;
+}
+
+footer {
+  clear: both;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+}
+
+nav.footer > ul{
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav.footer a {
+  color: #f00;
+}
+
+.middle li {
+  text-align: center;
+}
+
+
+
+
+
+/*end sidebar stuff*/
